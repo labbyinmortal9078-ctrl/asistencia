@@ -8,7 +8,7 @@ def validar_dni(dni: str) -> bool:
     """
     if not isinstance(dni, str):
         return False
-    if len(dni) != 7:
+    if len(dni) != 8:
         return False
     return dni.isdigit()
 
